@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>BAR-CODE</title>
+    <link rel = "icon" href =  
+"barcode.ico" 
+        type = "image/x-icon" /> 
+    <script src="eel.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form>
+        <input
+          type="text"
+          placeholder="Scan Barcode..."
+          id="Search"
+          autocomplete="off"
+          onblur="this.focus()" autofocus 
+        />
+        <input type="submit" value="Send"  onclick="send()"  />
+      </form>
+    </div>
+  </body>
+</html>
